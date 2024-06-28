@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #282828;
+      color: white;
+      padding: 10px 20px;
+  }
+  
+  header .logo {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  header nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  header nav ul li {
+      margin-left: 20px;
+  }
+  
+  header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+  }
+  
+  header .search-bar {
+      display: flex;
+      align-items: center;
+  }
+  
+  header .search-bar input {
+      padding: 5px;
+      font-size: 16px;
+  }
+  
+  header .search-bar button {
+      padding: 6px 10px;
+      margin-left: 10px;
+      background-color: #ff0000;
+      border: none;
+      color: white;
+      cursor: pointer;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  .video-types {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .video-types h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+  }
+  
+  .video-type-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+  }
+  
+  .video-type {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+  }
+  
+  .video-type:hover {
+      transform: translateY(-10px);
+  }
+  
+  .video-type img {
+      width: 100%;
+      height: auto;
+  }
+  
+  .video-type h3 {
+      padding: 10px;
+      font-size: 20px;
+  }
+  
+  footer {
+      background-color: #282828;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MOVIE</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Library</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <section class="video-types">
+            <h2>Explore Movies</h2>
+            <div class="video-type-grid">
+              <a href="https://www.youtube.com/watch?v=SF_wY3TA1CE">
+                <div class="video-type">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/2cda5e3fee6c153bbb44468f925b32718635b7a5fb40a6943ad9e79cfb9a5039.jpg" alt="Type 1">
+                    <h3>Panchayat season 1</h3>
+                </div>
+              </a>
+                
+                <div class="video-type">
+                    <img src="https://thepopcornuniverse.in/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-20-at-7.59.16-PM.jpeg" alt="Type 2">
+                    <h3>Panchayat season 2</h3>
+                </div>
+                
+                <div class="video-type">
+                    <img src="https://images.justwatch.com/backdrop/316673670/s640/season-2.%7Bformat%7D" alt="Type 3">
+                    <h3>Panchayat season 3</h3>
+                </div>
+                
+                <div class="video-type">
+                    <img src="https://st1.bollywoodlife.com/wp-content/uploads/2023/02/farzi-5-1.png" alt="Type 4">
+                    <h3>Farzi</h3>
+                </div>
+                
+                <div class="video-type">
+                  <img src="https://i.ytimg.com/vi/EdvydlHCViY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDESglrLw7WwSnNkjOuaju8hpSXJg" alt="Type 4">
+                  <h3>Pushpa 2</h3>
+              </div>
+                <!-- Add more video types as needed -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> 2024 Movie.</p>
+    </footer>
+</body>
+</html>
